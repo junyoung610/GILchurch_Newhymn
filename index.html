@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>새 찬송가 | 의정부길교회</title>
+    <link
+      rel="shortcut icon"
+      href="./img/common/icon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/list-styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="inner">
+        <div id="list-h1" class="hidden"></div>
+        <div class="header-box">
+          <div class="main-logo"></div>
+
+          <!-- 목록 보기 영역 -->
+          <div id="list-view">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="찬송가을 검색하세요!"
+            />
+            <button id="search-button">
+              <i class="ri-search-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 제작 및 2025년 표어 안내 -->
+    <section class="makin-info inner">
+      <div class="making" id="main-making">
+        by.
+        <div class="gilchurch">의정부길교회</div>
+        | 김준영 청년
+      </div>
+      <div class="slogan Interval">
+        <h1 class="gilchurch">예수 그리스도의 증인(證人)으로 살자</h1>
+        <p class="slogan-word">
+          오직 성령이 너희에게 임하시면 너희가 권능을 받고 예루살렘과 온 유대와
+          사마리아와 땅 끝까지 이르러 내 증인이 되리라 하시니라<br />
+          사도행전 1장 8절
+        </p>
+      </div>
+    </section>
+
+    <main id="main" class="Interval">
+      <!-- 목록 페이지 -->
+      <section id="list-view" class="section">
+        <div class="inner">
+          <ul id="book-list"></ul>
+        </div>
+      </section>
+
+      <!-- 다크&화이트모드 -->
+      <div class="dark-container">
+        <button id="mode-toggle">
+          <i class="ri-sun-fill"></i>
+        </button>
+      </div>
+    </main>
+
+    <!-- sub-header -->
+    <section id="sub-header" class="sub-header inner">
+      <div id="sub-list" class="sub-logo"></div>
+
+      <div class="making hidden" id="making">
+        by.
+        <div class="gilchurch">의정부길교회</div>
+        | 김준영 청년
+      </div>
+    </section>
+
+    <!-- 섹션 보기 -->
+    <section id="content-view" class="section hidden Interval">
+      <div class="section-box inner">
+        <h2 id="section-title"></h2>
+
+        <div class="navigation">
+          <button id="prev-button" class="navigation-btn" disabled>
+            <i class="ri-arrow-left-s-line"></i>
+          </button>
+          <button id="next-button" class="navigation-btn" disabled>
+            <i class="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-main" class="inner Interval hidden">
+      <img id="section-image" src="" alt="이미지" />
+      <p id="section-content" class="hidden"></p>
+    </section>
+    <div id="back-to-list" class="hidden"></div>
+
+    <!-- 모달 추가 -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="expandedImage" />
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/dark.js"></script>
+  </body>
+</html>

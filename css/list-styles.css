@@ -1,0 +1,65 @@
+@charset 'utf-8';
+
+/* 목록 리스트 디자인 */
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 10px 0;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#book-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#book-list li {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(0, 55, 138), rgb(101, 179, 46));
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+#book-list li a {
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 900px) {
+  #book-list li {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 600px) {
+  #book-list {
+    gap: 5px;
+  }
+  #book-list li {
+    width: 50px;
+    height: 50px;
+  }
+  #book-list li a {
+    font-size: 13px;
+  }
+}
