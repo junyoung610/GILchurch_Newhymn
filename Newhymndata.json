@@ -1,48 +1,48 @@
 [
   {
-    "id": "Introit",
+    "id": "Introit-0",
     "title": "사용안내",
     "content": "사용안내",
     "image": "./img/common/info.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-1",
     "title": "예배합니다",
     "content": "예배합니다",
     "image": "./img/Introit/1.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-2",
     "title": "입례",
     "content": "입례",
     "image": "./img/Introit/2.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-3",
     "title": "왕이신나의하나님",
     "content": "왕이신나의하나님",
     "image": "./img/Introit/3.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-4",
     "title": "신실하게 진실하게",
     "content": "신실하게 진실하게",
     "image": "./img/Introit/4.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-5",
     "title": "찬양하라 내 영혼아",
     "content": "찬양하라 내 영혼아",
     "image": "./img/Introit/5.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-6",
     "title": "지금까지 에벤에셀",
     "content": "지금까지 에벤에셀",
     "image": "./img/Introit/6.JPG"
   },
   {
-    "id": "Introit",
+    "id": "Introit-7",
     "title": "예수 우리 왕이여",
     "content": "예수 우리 왕이여",
     "image": "./img/Introit/7.JPG"
