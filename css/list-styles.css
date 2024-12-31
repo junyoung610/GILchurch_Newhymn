@@ -32,6 +32,7 @@ ul li a {
   border-radius: 10px;
   background: linear-gradient(to right, rgb(0, 55, 138), rgb(101, 179, 46));
   box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 #book-list li a {
   font-weight: 700;
@@ -42,6 +43,28 @@ ul li a {
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+#book-list li:nth-child(2) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(3) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(4) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(5) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(6) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(7) a {
+  font-size: 16px;
+}
+#book-list li:nth-child(8) a {
+  font-size: 16px;
 }
 
 /* 반응형 스타일 */
@@ -61,5 +84,27 @@ ul li a {
   }
   #book-list li a {
     font-size: 13px;
+  }
+
+  #book-list li:nth-child(2) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(3) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(4) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(5) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(6) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(7) a {
+    font-size: 11px;
+  }
+  #book-list li:nth-child(8) a {
+    font-size: 11px;
   }
 }
